@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tariff Manager</title>
+    <link rel="stylesheet" href="css/bootstrap-reboot.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src='js/script.js'></script>
+
+</head>
+<body>
+    <header>
+        <section class="header">
+            <div class="header__title">Custom tariff Manager</div>
+            <div class="header__name">Keanu Reeves</div>
+            <div class="header__avatar"></div>
+        </section>
+    </header>
+
+    <section class="tariffs_row"  >
+        <div class="tariffs__blocks"id="tm-container" >
+            <div class="tariffs__block" >
+                <div class="tariffs__blocks__name">К выполнению</div>
+                <div class="tariffs__blocks__elem">
+                    <div class="tariffs__blocks__elem__descr">
+                        Приступить к курсовой работе по оптимизации
+                    </div>
+                    <div class="tariffs__blocks__elem__icons">
+                        <div class="icons__firstrow">
+                            <button class="button__rightarrow">
+                                <img src="icons/right-arrow.svg" class="right" alt="right">
+                            </button>
+                        </div>
+                        <div class="icons__secondrow">
+                            <button class="button__edit">
+                                <img src="icons/edit.svg" class="edit" alt="edit">
+                            </button>
+                            <button class="button__delete">
+                                <img src="icons/delete-button.svg" class="delete" alt="delete">
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <button class="tariffs__blocks__elemadd">Добавить карточку...</button>
+            </div>
+            <div class="tariffs__block">
+                <div class="tariffs__blocks__name">В работе</div>
+                <div class="tariffs__blocks__elem">
+                    <div class="tariffs__blocks__elem__descr">
+                        Сдать лабы по ЭВМ
+                    </div>
+                    <div class="tariffs__blocks__elem__icons">
+                        <div class="icons__firstrow">
+                            <button class="button__leftarrow">
+                                <img src="icons/left-arrow.svg" class="left" alt="left" class="left">
+                            </button>
+                                <button class="button__rightarrow">
+                                <img src="icons/right-arrow.svg" class="right" alt="right">
+                                </button>
+                        </div>
+                        <div class="icons__secondrow">
+                            <button class="button__edit">
+                                <img src="icons/edit.svg" class="edit" alt="edit">
+                            </button>
+
+                            <button class="button__delete">
+                                <img src="icons/delete-button.svg" class="delete" alt="delete">
+                            </button>
+
+                        </div>
+                        
+                    </div>
+                </div>
+                <button class="tariffs__blocks__elemadd">Добавить карточку...
+                </button>
+            </div>
+            <div class="tariffs__block tariffs__block_empty">
+                <div class="tariffs__blocks__name">Проверка</div>
+                <button class="tariffs__blocks__elemadd">Добавить карточку...</button>
+            </div>
+            <div class="tariffs__button" id='tm-button' >
+                <button class="tariffs__addlist" id="add-tarifflist-button">
+                    Добавить список...
+                </button>
+                <input type="text" class="tariffs__addlist_input"  id="add_tarifflist_input"placeholder="Новый список">
+            </div>
+            
+        </div>
+    </section>
+</body>
+</html>

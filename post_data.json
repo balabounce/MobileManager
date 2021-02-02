@@ -1,0 +1,1 @@
+{"serviceList":[{"name":"Learn JavaScript","id":1},{"name":"Learn Vue","id":2},{"name":"Build something awesome","id":3}],"tariffList":[{"id":1,"name":"tariff 1","price":100,"services":"Learn JavaScript"},{"id":2,"name":"tariff 2","price":200,"services":"Learn Vue,Build something awesome"},{"id":3,"name":"tariff 3","price":300,"services":"Build something awesome"}]}

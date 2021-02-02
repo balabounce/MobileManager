@@ -1,0 +1,223 @@
+html {
+    min-height:  100%;
+    max-height: fit-content;
+}
+
+body         {
+    background: linear-gradient(to top,#7FACAC, #7CBAF9) center/cover no-repeat;
+}
+
+h2 {
+    text-align: center;
+}
+
+
+.header {
+    display: flex;
+    padding: 30px 80px;
+    justify-content: space-between;
+    height: 160px;
+    flex-wrap: wrap;
+    background: transparent;
+}
+
+.header__title {
+    font-size: 56px;
+    color: #020275;
+}
+
+.header__name {
+    margin-left: auto;
+    margin-right: 42px;
+    font-size: 56px;
+    color: #020275;
+}
+
+.header__avatar {
+    display: flex;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    background: url(../img/brc0KQj-blue-telephone-symbol-vector.svg) center/cover;
+    }
+
+.tariffs_row {
+    padding: 0 80px 30px 80px;
+    height: 100%;
+    
+}
+
+.tariffs__serviceList {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: stretch;
+    align-items: stretch;
+    margin-left: 120px;
+    margin-right: 120px;
+
+
+}
+
+.tariffs__block {
+    margin-top: 30px;
+    margin-right: 27px;
+}
+
+.tariffs__block_empty {
+    height: fit-content;
+}
+
+.tariffs__block, .tariffs__button{
+    padding: 20px 30px;
+    width: 393px;
+    height: fit-content;
+    background: rgb(203, 223, 244, .75);
+    border-radius: 20px;
+}
+
+
+
+.tariffs__blocks__name {
+    margin-bottom: 20px;
+    font-size: 36px;
+    font-weight: 700;
+    color: #020275;
+}
+
+.tariffs__blocks__elem {
+    padding: 10px 10px;
+    width: 350px;
+    margin-bottom: 17px;
+    border-radius: 14px;
+    min-height: 90px;
+    background: #93C4F5;
+    display: flex;
+
+}
+
+
+
+/* .tariffs__blocks:last-child .button__rightarrow {
+    display: none;
+}   */
+
+
+
+.tariffs__blocks__elem__descr {
+    text-align: left;
+    overflow-wrap: break-word;
+    max-width: 240px;
+    margin: auto 0;
+    margin-right: auto;
+    font-weight: normal;
+    font-size: 26px;
+    color: black;
+    opacity: 1;
+}
+
+.tariffs__blocks__elem:active, .tariffs__blocks__elem:hover {
+    padding: 8px 8px;
+    border: 2px solid #020275;
+}
+
+
+.tariffs__blocks__elem__icons {
+    margin-top: auto;
+    margin-bottom: auto;
+    opacity: .5;
+
+}
+
+.tariffs__blocks__elem__icons img{
+    background: transparent;
+}
+
+.tariffs__blocks__elem__icons:hover{
+    opacity: 1;
+}
+
+
+.tariffs__blocks__elem__icons > div {
+    display: flex; 
+    flex-direction: row;
+    align-content: center;
+}
+
+.tariffs__blocks__elem__icons:active {
+    outline: none;
+}
+
+.icons__firstrow {
+    justify-content: center;
+    vertical-align: top;
+    margin-left: 11px;
+
+    margin-bottom: 10px;
+}
+
+.icons__secondrow {
+    margin-left: 13px;
+}
+
+.tariffs__blocks__elemadd {
+    font-size: 30px;
+    color: #3D3D3F;
+    opacity: 1;
+    padding: 0;
+
+}
+
+.tariffs__blocks__elemadd:hover {
+    font-weight: 700;
+}
+
+.tariffs__button{
+    min-width: 0;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 360px;
+    height: 90px;
+    background: rgba(203, 223, 244, 0.45);
+}
+
+
+.tariffs__addlist {
+    font-size: 28px;
+    color: #020275;
+}
+
+.tariffs__addlist:hover {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.tariffs__addlist_input {
+    box-sizing: border-box;
+    width: 100%;
+    border-radius: 8px;
+    box-shadow: 0 0 4px #222223;
+    padding: 0.6vw;
+    font-size: clamp(0,7rem, 1.5vw, 1.5rem);
+    color: #222223;
+    opacity: 0.7;
+    border: none;
+    /* display: none; */
+}
+
+.tariffs__addlist_input:active, 
+.tariffs__addlist_input:focus {
+    outline: none;
+}
+button {
+    border: none;
+    background: none;
+}
+
+button, 
+button:active, 
+button:focus {
+    outline: none;
+}
