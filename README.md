@@ -2,4 +2,4 @@
 npm install
 
 ## Запуск:
-node ./server/index.js
+node index.js
